@@ -8,11 +8,13 @@
 
 body {
     width: 100%;
-    background-color: black;
+    background-color: rgb(46, 43, 43);
+   
 }
 a > img {
     width: 430px;
     height: 222px;
+    box-shadow: 15px 15px 15px rgb(255, 0, 0);
 }
 
 img:hover {
