@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --fonte-principal: 'Saira Condensed', sans-serif;
+    --cor-branca: #ffffffe0;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    width: 100%;
+    background-color: #0a192f;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1c2c47;
+   
+  
+}
+nav> a{
+     text-decoration: underline;
+    
+}
+
+h1 {
+    font-family: var(--fonte-titulos);
+    font-weight: 700;
+    color: var(--cor-branca);
+    font-size: 40px;
+
+
+}
+
+p, a {
+    font-family: var(--fonte-principal);
+    color: var(--cor-branca);
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to bottom, #0a192f, #020c1b);
+
+}
+
+a>img {
+    width: 430px;
+    height: 222px;
+
+
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.container-images {
+    padding: 30px;
+
+}
+
+
+.container-text {
+    padding: 40px;
+}
+
+.card > p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container-text > h1 {
+    font-family: var(--fonte-titulos);
+    font-family: var(--cor-branca);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.container-text > p {
+    font-family: var(--fonte-principal);
+    color: var(--cor-branca);
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #0e1725;
+}

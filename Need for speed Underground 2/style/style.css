@@ -1,80 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-   --fonte-principal: 'Saira Condensed', sans-serif;
+    --fonte-principal: 'Saira Condensed', sans-serif;
     --cor-branca: #ffffff;
-    
+
 }
 
 body {
     width: 100%;
-    background-color: rgb(46, 43, 43);
-   
-}
-a > img {
-    width: 430px;
-    height: 222px;
-    box-shadow: 15px 15px 15px rgb(255, 0, 0);
-}
+    background-color: #0a192f;
 
-img:hover {
- transform: scale(1.1);
-}
-
-.container-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    
-}
-
-.container-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 50px;
-    
-}
-
-.container-images {
-  padding: 30px;
-    
 }
 
 h1 {
     font-family: var(--fonte-titulos);
-    font-weight: 700; /* Define o peso da fonte (negrito) */
+    font-weight: 700;
     color: var(--cor-branca);
     font-size: 40px;
-    text-align: center;
-    align-items: center;
-   
+
+
 }
 
-p {
+p,
+ul, h2, h3 {
     font-family: var(--fonte-principal);
     color: var(--cor-branca);
     font-weight: 400;
     font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.text {
-    padding: 40px;
-}
-
-
-.container-text > h1 {
-    font-family: var(--fonte-titulos);
-    font-family: var(--cor-branca);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: ;
 
 }
+
+
+
+
